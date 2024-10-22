@@ -98,8 +98,12 @@ img {
 .header__logo {
   display: flex;
   align-items: center;
-  margin-right: 200px;
-  padding-bottom: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .header__logo-texts {
   display: flex;
@@ -114,10 +118,17 @@ img {
   font-size: 14px;
   line-height: 14px;
 }
+.header__nav {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .header__nav-list {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10px;
 }
 .header__nav-item {
   padding: 30px;
@@ -127,9 +138,12 @@ img {
   line-height: 14.63px;
 }
 .header__button-wrapper {
-  padding-left: 120px;
-  border-radius: 12px;
-  padding-bottom: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .header__button {
   border-radius: 12px;

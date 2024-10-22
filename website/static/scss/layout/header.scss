@@ -17,8 +17,13 @@
     &__logo {
         display: flex;
         align-items: center;
-        margin-right: $size-200;
-        padding-bottom: $size-10;
+
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
     &__logo-texts {
@@ -37,10 +42,16 @@
     }
 
     &__nav {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
         &-list {
             display: flex;
             flex-direction: row;
-            padding-bottom: $size-10;
         }
 
         &-item {
@@ -54,9 +65,12 @@
     }
 
     &__button-wrapper {
-        padding-left: $size-120;
-        border-radius: $size-12;
-        padding-bottom: $size-10;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
     &__button {
