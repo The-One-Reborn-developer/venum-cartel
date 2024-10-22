@@ -1,0 +1,24 @@
+body {
+    font-family: $font-family;
+    background-color: $background;
+}
+
+a, p, button {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.container {
+    @include min-max($size-320, $size-1200);
+}
+
+.wrapper {
+    @include min-max($size-320, $size-1200);
+    position: relative;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

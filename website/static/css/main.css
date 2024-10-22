@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #000000;
+}
+
+a, p, button {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.wrapper {
+  min-width: 320px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  position: absolute;
+  padding-top: 14px;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(270deg, rgba(231, 225, 225, 0.3411764706) 0%, rgba(137, 2, 2, 0.231372549) 100%);
+  border-radius: 12px;
+  width: 1120px;
+  height: 60px;
+  margin: 14px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+  padding-bottom: 10px;
+}
+.header__logo-texts {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.header__logo-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+}
+.header__nav-list {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.header__nav-item {
+  padding: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.63px;
+}
+.header__button-wrapper {
+  padding-left: 120px;
+  border-radius: 12px;
+  padding-bottom: 10px;
+}
+.header__button {
+  border-radius: 12px;
+  padding: 10px;
+  gap: 10px;
+  width: 160px;
+  height: 35px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-family: "Montserrat";
+  background: linear-gradient(90deg, #D91E10 0%, #FFCA72 100%);
+  border: none;
+}
+.header__button:hover {
+  box-shadow: 0 0 10px #ffffff;
+}
+.header__button:active {
+  transform: scale(0.9);
+}
+
+.main__button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: linear-gradient(180.21deg, rgba(226, 182, 26, 0.15) 0.18%, rgba(228, 71, 71, 0.15) 72.88%);
+  border: none;
+  border-radius: 100px;
+  width: 205px;
+  height: 196px;
+}
+.main__button:hover {
+  background: linear-gradient(90deg, #D91E10 0%, #FFCA72 100%);
+  box-shadow: 0 0 10px #ffffff;
+}
+.main__button:active {
+  background: linear-gradient(90deg, #D91E10 0%, #FFCA72 100%);
+  transform: translate(-50%, -50%) scale(0.9);
+}
+.main__button-text {
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14.63px;
+  text-align: center;
+}
+.main__button-arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=main.css.map */

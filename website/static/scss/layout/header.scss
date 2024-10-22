@@ -1,0 +1,84 @@
+.header {
+    position: absolute;
+
+    padding-top: $size-14;
+    padding-left: $size-80;
+
+    display: flex;
+    align-items: center;
+
+    background: $header;
+
+    border-radius: $size-12;
+    width: $size-1120;
+    height: $size-60;
+    margin: $size-14;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin-right: $size-200;
+        padding-bottom: $size-10;
+    }
+
+    &__logo-texts {
+        display: flex;
+        flex-direction: column;
+        padding: $size-5;
+        margin-top: $size-15;
+        padding-bottom: $size-10;
+    }
+
+    &__logo-text {
+        color: $font-color;
+        font-weight: $header-logo-font-weight;
+        font-size: $header-logo-font-size;
+        line-height: $header-logo-font-line-height;
+    }
+
+    &__nav {
+        &-list {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: $size-10;
+        }
+
+        &-item {
+            padding: $size-30;
+
+            color: $font-color;
+            font-weight: $header-font-weight;
+            font-size: $header-font-size;
+            line-height: $header-font-line-height;
+        }
+    }
+
+    &__button-wrapper {
+        padding-left: $size-120;
+        border-radius: $size-12;
+        padding-bottom: $size-10;
+    }
+
+    &__button {
+        border-radius: $size-12;
+        padding: $size-10;
+        gap: $size-10;
+        width: $size-160;
+        height: $size-35;
+        font-weight: $header-button-font-weight;
+        font-size: $header-button-font-size;
+        line-height: $header-button-font-line-height;
+        font-family: $font-family;
+        background: $header-button;
+
+        border: none;
+    }
+
+    &__button:hover {
+        box-shadow: 0 0 $size-10 $font-color;
+    }
+
+    &__button:active {
+        transform: scale(0.9);
+    }
+}

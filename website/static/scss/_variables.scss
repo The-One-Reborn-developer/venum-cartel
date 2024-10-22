@@ -1,20 +1,23 @@
 //colors
 $background: #000000;
 
-$header: linear-gradient(#E7E1E157, #8902023B);
-$header-button: linear-gradient(#D91E10, #FFCA72);
+$header: linear-gradient(270deg, #E7E1E157 0%, #8902023B 100%);
+$header-button: linear-gradient(90deg, #D91E10 0%, #FFCA72 100%);
 
-$main-button: linear-gradient(#E2B61A26, #E4474726);
+$main-button: linear-gradient(180.21deg, rgba(226, 182, 26, 0.15) 0.18%, rgba(228, 71, 71, 0.15) 72.88%);
 
-$blocks-header: linear-gradient(#FFCD74, #D81B0E);
+$blocks-header: linear-gradient(270deg, #FFCD74 0%, #D81B0E 100%);
 
-$bullet: linear-gradient(#DF0609, #48388705);
-$bullet-paragraph: linear-gradient(#EF0404, #89020200);
+$bullet: linear-gradient(261.06deg, #DF0609 2.64%, rgba(72, 56, 135, 0.02) 56.79%);
+$bullet-paragraph: linear-gradient(270deg, #EF0404 0%, rgba(137, 2, 2, 0) 59.03%);
 
-$partner-box: linear-gradient(#D00303, #FFD64400);
+$partner-box-top: linear-gradient(270deg, #D00303 0%, rgba(255, 214, 68, 0) 100%);
+$partner-box-bottom: linear-gradient(270deg, rgba(255, 214, 68, 0) 0%, rgba(208, 3, 3, 0.7) 100%);
 
-$submit-form: linear-gradient(#FF00005C, #9A963D5C);
-$submit-button: linear-gradient(#FFCD74, #D81B0E);
+$call-to-action: linear-gradient(270deg, #FFCD74 0%, #D81B0E 100%);
+
+$submit-form: linear-gradient(180deg, rgba(255, 0, 0, 0.36) 0%, rgba(154, 150, 61, 0.36) 100%);
+$submit-button: linear-gradient(270deg, #FFCD74 0%, #D81B0E 100%);
 
 $font-color: #ffffff;
 $submit-form-policy-font-color: #737373;
@@ -22,7 +25,6 @@ $submit-form-policy-font-color: #737373;
 
 //fonts
 $font-family: 'Montserrat';
-
 
 $header-logo-font-weight: 700;
 $header-logo-font-size: 14px;
@@ -77,3 +79,30 @@ $footer-links-font-line-height: 14.63px;
 $footer-font-weight: 500;
 $footer-font-size: 12px;
 $footer-font-line-height: 14.64px;
+
+
+//sizes
+$size-2: 2px;
+$size-3: 3px;
+$size-5: 5px;
+$size-10: 10px;
+$size-12: 12px;
+$size-14: 14px;
+$size-15: 15px;
+$size-30: 30px;
+$size-35: 35px;
+$size-60: 60px;
+$size-80: 80px;
+$size-100: 100px;
+$size-120: 120px;
+$size-160: 160px;
+$size-196: 196px;
+$size-200: 200px;
+$size-205: 205px;
+$size-320: 320px;
+$size-1120: 1120px;
+$size-1200: 1200px;
+
+
+//degrees
+$degree-45: 45deg;

@@ -1,0 +1,49 @@
+.main {
+    &__button {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        background: $main-button;
+        
+        border: none;
+        border-radius: $size-100;
+
+        width: $size-205;
+        height: $size-196;
+    }
+
+    &__button:hover {
+        background: $header-button;
+
+        box-shadow: 0 0 $size-10 $font-color;
+    }
+
+    &__button:active {
+        background: $header-button;
+
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+
+    &__button-text {
+        display: block;
+
+        font-family: $font-family;
+        font-weight: $main-button-font-weight;
+        font-size: $main-button-font-size;
+        line-height: $main-button-font-line-height;
+        text-align: center;
+    }
+
+    &__button-arrow {
+        border: solid white;
+        border-width: 0 $size-3 $size-3 0;
+        display: inline-block;
+        padding: $size-3;
+        transform: rotate($degree-45);
+        -webkit-transform: rotate($degree-45);
+    }
+}

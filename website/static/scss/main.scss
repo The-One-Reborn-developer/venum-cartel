@@ -2,3 +2,8 @@
 
 @import 'reset';
 @import 'variables';
+@import 'mixins';
+@import 'core';
+
+@import 'layout/header';
+@import 'layout/main';
