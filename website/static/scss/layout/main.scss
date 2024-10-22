@@ -19,7 +19,7 @@
     &__button:hover {
         background: $header-button;
 
-        box-shadow: 0 0 $size-10 $font-color;
+        box-shadow: 0 0 $size-10 $button-shadow;
     }
 
     &__button:active {
@@ -39,7 +39,7 @@
     }
 
     &__button-arrow {
-        border: solid white;
+        border: solid $button-arrow;
         border-width: 0 $size-3 $size-3 0;
         display: inline-block;
         padding: $size-3;

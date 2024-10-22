@@ -8,10 +8,6 @@ a, p, button {
     text-decoration: none;
 }
 
-.container {
-    @include min-max($size-320, $size-1200);
-}
-
 .wrapper {
     @include min-max($size-320, $size-1200);
     position: relative;

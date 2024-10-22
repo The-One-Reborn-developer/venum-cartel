@@ -62,13 +62,6 @@ a, p, button {
   text-decoration: none;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
 .wrapper {
   min-width: 320px;
   max-width: 1200px;
@@ -159,7 +152,7 @@ img {
   border: none;
 }
 .header__button:hover {
-  box-shadow: 0 0 10px #ffffff;
+  box-shadow: 0 0 10px white;
 }
 .header__button:active {
   transform: scale(0.9);
@@ -180,7 +173,7 @@ img {
 }
 .main__button:hover {
   background: linear-gradient(90deg, #D91E10 0%, #FFCA72 100%);
-  box-shadow: 0 0 10px #ffffff;
+  box-shadow: 0 0 10px white;
 }
 .main__button:active {
   background: linear-gradient(90deg, #D91E10 0%, #FFCA72 100%);

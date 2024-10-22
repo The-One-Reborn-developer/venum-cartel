@@ -89,7 +89,7 @@
     }
 
     &__button:hover {
-        box-shadow: 0 0 $size-10 $font-color;
+        box-shadow: 0 0 $size-10 $button-shadow;
     }
 
     &__button:active {
